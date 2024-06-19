@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Météo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bienvenue sur la météo de la France</h1>
+    <div id="search-container">
+        <input type="text" id="city-input" placeholder="Entrez une ville">
+        <button id="search-button">Rechercher</button>
+    </div>
+    <div id="weather">
+        <p class="city-name" id="city-name"></p>
+        <img src="" alt="Weather Icon" class="weather-icon" id="weather-icon">
+        <div class="weather-info">
+            <p class="temperature" id="temperature"></p>
+            <p class="description" id="description"></p>
+        </div>
+        <div class="details">
+            <div class="detail" id="humidity"></div>
+            <div class="detail" id="wind"></div>
+        </div>
+    </div>
+    <script src="testOpenWeather.js"></script>
+</body>
+</html>
